@@ -13,6 +13,7 @@ public class Main {
                 System.out.println(file);
                 file = reader.readLine();
             }
+            reader.close();
 
         } catch (IOException e) {
             e.printStackTrace();
